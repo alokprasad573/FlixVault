@@ -1,12 +1,88 @@
-# React + Vite
+# FlixVault 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web streaming application built with React and Material-UI, providing a sleek and responsive interface for browsing and watching movies.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern and responsive UI design
+- Movie grid layout with left-aligned cards
+- Smooth transitions and hover effects
+- Material-UI components for consistent design
+- React Router for seamless navigation
 
-## Expanding the ESLint configuration
+## Tech Stack 🛠
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite
+- Material-UI (MUI)
+- React Router DOM
+- Emotion (for styled components)
+
+## Getting Started 🚀
+
+### Prerequisites
+
+- Node.js (Latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/alokprasad573/FlixVault.git
+cd FlixVault
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure 📁
+
+```
+src/
+├── api/                    # API integration and services
+├── components/            # Reusable UI components
+│   ├── Filters/          # Filter-related components
+│   ├── Header.jsx        # Main navigation header
+│   ├── MovieCard.jsx     # Individual movie card component
+│   └── MovieGrid.jsx     # Grid layout for movie cards
+├── pages/                # Page components
+│   ├── Home.jsx         # Home page with movie listings
+│   └── MovieDetails.jsx # Individual movie details page
+├── App.jsx              # Main application component
+└── main.jsx            # Application entry point
+```
+
+## Contributing 🤝
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License 📝
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments 🙏
+
+- Material-UI for the beautiful component library
+- Vite for the blazing fast development experience
+- React team for the amazing framework
