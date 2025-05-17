@@ -6,17 +6,17 @@ export default function Header({ onSearch }) {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" noWrap sx={{ flexGrow: 1 }}>
-          StreamLite
+          FlixVault
         </Typography>
 
         {/* Search Box */}
         <Box
           sx={{
-            backgroundColor: (theme) => alpha(theme.palette.common.white, 0.15),
+            backgroundColor: (theme) => alpha(theme.palette.common.black, 0.15),
             '&:hover': {
-              backgroundColor: (theme) => alpha(theme.palette.common.white, 0.25),
+              backgroundColor: (theme) => alpha(theme.palette.common.black, 0.25),
             },
-            borderRadius: 1,
+            borderRadius: 5,
             ml: { xs: 0, sm: 1 },
             width: { xs: '100%', sm: 'auto' },
           }}

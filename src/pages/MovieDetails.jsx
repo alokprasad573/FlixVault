@@ -35,7 +35,7 @@ export default function MovieDetails() {
 
   return (
     <Container maxWidth="md" sx={{ mt: 4 }}>
-      <Box display="flex" flexDirection="column" alignItems="center" textAlign="center">
+      <Box display="flex" flexDirection="row" justifyContent="spaceEvenly" alignItems="center" textAlign="center">
         <Typography variant="h4" gutterBottom>{movie.title}</Typography>
 
         <Box
